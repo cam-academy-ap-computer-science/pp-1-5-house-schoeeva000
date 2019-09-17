@@ -2,28 +2,35 @@
 public class House {
 
 	public static void main(String[] args) {
-		System.out.println("This is the house that Jack built.\n");
-		System.out.println("This is the malt");
+		t();
+		System.out.println("house that Jack built.\n");
+		t();
+		System.out.println("malt");
 		jb();
-		System.out.println("This is the rat,");
+		t();
+		System.out.println("rat,");
 		malt();
 		jb();
-		System.out.println("This is the cat,");
+		t();
+		System.out.println("cat,");
 		rat();
 		malt();
 		jb();
-		System.out.println("This is the dog,");
+		t();
+		System.out.println("dog,");
 		cat();
 		rat();
 		malt();
 		jb();
-		System.out.println("This is the cow with the crumpled horn,");
+		t();
+		System.out.println("cow with the crumpled horn,");
 		dog();
 		cat();
 		rat();
 		malt();
 		jb();
-		System.out.println("This is the maiden all forlorn,");
+		t();
+		System.out.println("maiden all forlorn,");
 		cow();
 		dog();
 		cat();
@@ -35,6 +42,9 @@ public class House {
 
 	public static void jb() {
 		System.out.println("That lay in the house that jack built.\n");
+	}
+	public static void t() {
+		System.out.print("This is the ");
 	}
 	
 	public static void malt() {
