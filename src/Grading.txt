@@ -1,0 +1,25 @@
+Graded 9/18 by Mark Congdon
+
+Total Score:		25/25
+
+Compiles and Runs:	15/15
+Correct Output:		6/6
+Consistent Style:	2/2
+Efficiency:			2/2
+
+Good work!  Your program is very clean and well-organized.
+
+For future projects, you will want to start adding comments.
+Everybody does comments slightly differently, but anything
+that shows the structure of your program is helpful.
+
+Your program is well structured, and I liked your use of
+print statements to improve efficiency even further.  Well
+done.
+
+There is one efficiency that could be added.  Notice that
+every time you call malt(), you call jb() immediately afterwards.
+Therefore, you could add jb() at the end of your malt() method, and
+remove it other places.  Then, you could do the same thing
+with rat() (add malt() at the end of it), etc.  Your cow() function,
+then, would be all you needed to print most of the last verse.
